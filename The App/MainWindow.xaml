@@ -14,7 +14,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <StackPanel Background="#FF47786D">
-            <TextBlock Text="BOooooring!" FontSize="72" HorizontalAlignment="Center" Margin="150"
+            <TextBlock Text="Boooring!" FontSize="72" HorizontalAlignment="Center" Margin="150"
                        FontFamily="Showcard Gothic" Foreground="#FFBDBD2B"/>
         </StackPanel>
 
