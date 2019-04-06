@@ -11,6 +11,8 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
             <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="3*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -22,8 +24,18 @@
             <Button Margin="30" Height="30"/>
             <Button Margin="30" Height="30"/>
         </StackPanel>
+        <StackPanel Background="#FF47786D" Grid.Column="3">
+            <Frame x:Name="win3F1" Height="467.273"/>
+        </StackPanel>
+        <StackPanel Background="#FF47786D" Grid.Column="2">
+            <Button Margin="30" Height="30"/>
+            <Button Margin="30" Height="30"/>
+            <Button Margin="30" Height="30"/>
+            <Button Margin="30" Height="30"/>
+            <Button Margin="30" Height="30"/>
+        </StackPanel>
         <StackPanel Background="#FF47786D" Grid.Column="1">
-            <Frame x:Name="win3F1" Height="500"/>
-        </StackPanel> 
+            <Frame x:Name="win3F2" Height="467.273"/>
+        </StackPanel>
     </Grid>
 </Window>
