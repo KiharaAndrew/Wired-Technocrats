@@ -5,18 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:The_App"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="500" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition/>
         </Grid.RowDefinitions>
         <StackPanel Background="#FF47786D">
-            <TextBlock Text="BOooooring!" FontSize="72" HorizontalAlignment="Center" Margin="150"
-                       FontFamily="Showcard Gothic" Foreground="#FFBDBD2B"/>
+            <Button Margin="30" Height="30"/>
+            <Button Margin="30" Height="30"/>
+            <Button Margin="30" Height="30"/>
+            <Button Margin="30" Height="30"/>
+            <Button Margin="30" Height="30"/>
         </StackPanel>
-
+        <StackPanel Background="#FF47786D" Grid.Column="1">
+            <Button Margin="30" Height="30"/>
+            <Button Margin="30" Height="30"/>
+            <Button Margin="30" Height="30"/>
+            <Button Margin="30" Height="30"/>
+            <Button Margin="30" Height="30"/>
+        </StackPanel> 
     </Grid>
 </Window>
