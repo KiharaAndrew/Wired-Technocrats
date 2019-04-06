@@ -4,12 +4,13 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:The_App"
+        xmlns:Icon="clr-namespace:MaterialIcons;assembly=MaterialIcons"
         mc:Ignorable="d"
         Title="MainWindow" Height="500" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="3*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -22,11 +23,7 @@
             <Button Margin="30" Height="30"/>
         </StackPanel>
         <StackPanel Background="#FF47786D" Grid.Column="1">
-            <Button Margin="30" Height="30"/>
-            <Button Margin="30" Height="30"/>
-            <Button Margin="30" Height="30"/>
-            <Button Margin="30" Height="30"/>
-            <Button Margin="30" Height="30"/>
+            <Frame x:Name="win3F1" Height="500"/>
         </StackPanel> 
     </Grid>
 </Window>
